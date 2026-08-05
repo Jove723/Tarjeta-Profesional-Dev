@@ -32,9 +32,13 @@
       "camera": {
         "type": "perspective",
         "xr": {
-          "desktop": "3D",
-          "xrCameraType": "3dOnly",
-          "headset": "disabled"
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR",
+          "world": {
+            "disableWorldTracking": true
+          }
         }
       },
       "components": {},
@@ -44,19 +48,19 @@
       "name": "Camera",
       "position": [
         0,
-        2,
-        3
+        9.799999999999988,
+        15.891024664036886
       ],
       "rotation": [
-        0.0004436887233141012,
-        0.9659425615285845,
-        -0.25875089860082223,
-        0.0016563336561801576
+        0.0005189334533698113,
+        0.965428013263647,
+        -0.26066374011099874,
+        0.0017019122271314546
       ],
       "scale": [
-        1,
-        1,
-        1
+        2.6489348443944456,
+        2.277677965549728,
+        2.529079664998653
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 1.0308214152219775
@@ -90,39 +94,6 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
     },
-    "3073cdc8-7983-43c7-b670-908a58637b4b": {
-      "id": "3073cdc8-7983-43c7-b670-908a58637b4b",
-      "position": [
-        0.04993708461522184,
-        1.2975625699535525,
-        2.3769362388793427
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/c7c0abe69500425fb98b14b8a7398259.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "c7c0abe69500425fb98b14b8a7398259.glb",
-      "order": 2.8446532845624595
-    },
     "250beb79-4d82-4104-bf9e-c5f35432dde1": {
       "id": "250beb79-4d82-4104-bf9e-c5f35432dde1",
       "position": [
@@ -143,7 +114,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "c93ecf3a-9187-440e-8b50-ad75f7b19aa6",
       "components": {},
       "gltfModel": {
         "src": {
@@ -155,6 +126,34 @@
       },
       "name": "Character_Preset.glb",
       "order": 3.9165832821132915
+    },
+    "c93ecf3a-9187-440e-8b50-ad75f7b19aa6": {
+      "id": "c93ecf3a-9187-440e-8b50-ad75f7b19aa6",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Image Target",
+      "imageTarget": {
+        "name": "TarjetaP"
+      },
+      "order": 5.401917327984327
     }
   },
   "spaces": {

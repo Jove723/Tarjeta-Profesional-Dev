@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 70,
+    "left": 0,
+    "width": 673,
+    "height": 897,
+    "isRotated": false,
+    "originalWidth": 673,
+    "originalHeight": 1039
+  },
+  "imagePath": "image-targets/TarjetaP_luminance.png",
+  "metadata": null,
+  "name": "TarjetaP",
+  "resources": {
+    "originalImage": "TarjetaP_original.png",
+    "croppedImage": "TarjetaP_cropped.png",
+    "thumbnailImage": "TarjetaP_thumbnail.png",
+    "luminanceImage": "TarjetaP_luminance.png"
+  },
+  "created": 1785888975067,
+  "updated": 1785889394574
+}
