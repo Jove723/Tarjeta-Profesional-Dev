@@ -154,6 +154,361 @@
         "name": "TarjetaP"
       },
       "order": 5.401917327984327
+    },
+    "eeda0e6d-41d2-4e72-bb4e-0aca6315e9b1": {
+      "id": "eeda0e6d-41d2-4e72-bb4e-0aca6315e9b1",
+      "position": [
+        -1.9041839017580022,
+        0,
+        0.6991129598681971
+      ],
+      "rotation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Setup.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Setup.glb",
+      "order": 6.564992909925936,
+      "shadow": {
+        "receiveShadow": true
+      }
+    },
+    "41b0397b-7b1b-4597-9978-53a8a78f5f2c": {
+      "id": "41b0397b-7b1b-4597-9978-53a8a78f5f2c",
+      "position": [
+        0.5418848159176115,
+        2.306673690315135,
+        -2.673543483281821
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2.6320847036173305,
+        1.4568136870890416,
+        1.4568136870890416
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Animacin_3D.mp4"
+        }
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Video",
+      "order": 8.48247990269314
+    },
+    "e7b18b43-2c52-414f-b35b-78c7bc5d56c7": {
+      "id": "e7b18b43-2c52-414f-b35b-78c7bc5d56c7",
+      "position": [
+        0.012431312625569485,
+        -0.0311382677179719,
+        0.009484917409352756
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.3799269828306356,
+        0.6864295749432228,
+        0.6864295749432228
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "41b0397b-7b1b-4597-9978-53a8a78f5f2c",
+      "components": {
+        "4371700e-28cc-45ff-be97-0b01388ee8f0": {
+          "id": "4371700e-28cc-45ff-be97-0b01388ee8f0",
+          "name": "videoController",
+          "parameters": {
+            "video": {
+              "type": "entity",
+              "id": "41b0397b-7b1b-4597-9978-53a8a78f5f2c"
+            },
+            "playIcon": {
+              "type": "entity",
+              "id": "e7b18b43-2c52-414f-b35b-78c7bc5d56c7"
+            }
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 50,
+        "height": 40,
+        "background": "#595959",
+        "borderRadius": 20,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": 0,
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingLeft": 0,
+        "paddingRight": 0
+      },
+      "name": "Button",
+      "order": 9.872569609419934
+    },
+    "32067405-010d-4ba5-ba92-98252899942c": {
+      "id": "32067405-010d-4ba5-ba92-98252899942c",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "e7b18b43-2c52-414f-b35b-78c7bc5d56c7",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/Play.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 1.7191892146593108
+    },
+    "7aed1b8f-de44-4daf-9f36-91be4f5d2155": {
+      "id": "7aed1b8f-de44-4daf-9f36-91be4f5d2155",
+      "position": [
+        -0.22693737207541487,
+        0.027106391101714866,
+        0.07130820623903356
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.75,
+        0.7499999999999999,
+        0.7499999999999999
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "bff433f5-75df-42fc-a26f-547305b26081",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Whatsapp.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Whatsapp.glb",
+      "order": 10.380341108136365,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "offsetQuaternionX": 0.7071067811865475,
+        "offsetQuaternionY": 0,
+        "offsetQuaternionZ": 0,
+        "offsetQuaternionW": 0.7071067811865476,
+        "offsetX": 1.5000000000000002,
+        "offsetY": 0.1
+      }
+    },
+    "8b54f317-7967-4e66-95ad-0e4b6b9f41ff": {
+      "id": "8b54f317-7967-4e66-95ad-0e4b6b9f41ff",
+      "position": [
+        0.07723329613267937,
+        0.013982397454438633,
+        0.0482717244274653
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.75,
+        0.7499999999999999,
+        0.7499999999999999
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "bff433f5-75df-42fc-a26f-547305b26081",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Instagram.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Instagram.glb",
+      "order": 12.216088620834014,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "offsetQuaternionX": -0.7071067811865475,
+        "offsetQuaternionY": 0,
+        "offsetQuaternionZ": 0,
+        "offsetQuaternionW": 0.7071067811865476,
+        "offsetZ": -0.09999999999999998,
+        "offsetY": 0.05
+      }
+    },
+    "bff433f5-75df-42fc-a26f-547305b26081": {
+      "id": "bff433f5-75df-42fc-a26f-547305b26081",
+      "position": [
+        -2.5669600137806636,
+        2.2105058200700083,
+        -2.741238424484216
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Redes",
+      "order": 14.951248617563673
+    },
+    "a69ef8b9-1b26-455f-a709-e96a0dfc98b8": {
+      "id": "a69ef8b9-1b26-455f-a709-e96a0dfc98b8",
+      "position": [
+        0.029960013780663708,
+        0.028521838586329284,
+        -0.03090839551605873
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        1.25,
+        1.0000000532124818
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#000000"
+      },
+      "parentId": "bff433f5-75df-42fc-a26f-547305b26081",
+      "components": {},
+      "name": "Plane",
+      "order": 7.557963817145049
+    },
+    "5ff59be9-21cf-488e-8cf9-8ab5fbeb04e7": {
+      "id": "5ff59be9-21cf-488e-8cf9-8ab5fbeb04e7",
+      "position": [
+        0.2981638400668096,
+        0.01362637222375751,
+        0.054604464919995266
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.75,
+        0.7499999999999999,
+        0.7499999999999999
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "bff433f5-75df-42fc-a26f-547305b26081",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Github.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Github.glb",
+      "order": 11.585844206443209,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 0,
+        "type": "static",
+        "eventOnly": true,
+        "offsetX": -1.55,
+        "offsetQuaternionX": -0.7071067811865475,
+        "offsetQuaternionY": 0,
+        "offsetQuaternionZ": 0,
+        "offsetQuaternionW": 0.7071067811865476,
+        "offsetY": 0.2,
+        "offsetZ": -0.10000000000000003
+      }
     }
   },
   "spaces": {
