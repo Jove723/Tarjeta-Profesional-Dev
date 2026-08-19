@@ -114,7 +114,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "3d4f5ef0-b759-49bd-b067-f5c5fb8ad79f",
       "components": {
         "2b44dad3-cf9c-42c5-b1fb-1a87fa59709a": {
           "id": "2b44dad3-cf9c-42c5-b1fb-1a87fa59709a",
@@ -178,59 +178,23 @@
       },
       "order": 5.401917327984327
     },
-    "eeda0e6d-41d2-4e72-bb4e-0aca6315e9b1": {
-      "id": "eeda0e6d-41d2-4e72-bb4e-0aca6315e9b1",
-      "position": [
-        -1.9041839017580022,
-        0,
-        0.6991129598681971
-      ],
-      "rotation": [
-        0,
-        0.7071067811865475,
-        0,
-        0.7071067811865476
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/Setup.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "Setup.glb",
-      "order": 6.564992909925936,
-      "shadow": {
-        "receiveShadow": true
-      }
-    },
     "41b0397b-7b1b-4597-9978-53a8a78f5f2c": {
       "id": "41b0397b-7b1b-4597-9978-53a8a78f5f2c",
       "position": [
-        0.5418848159176115,
-        2.306673690315135,
-        -2.673543483281821
+        1.2158688447808117,
+        2.472499866114351,
+        -2.6735434832818212
       ],
       "rotation": [
-        0,
+        -1.1102230246251565e-16,
         0,
         0,
         1
       ],
       "scale": [
-        2.6320847036173305,
-        1.4568136870890416,
-        1.4568136870890416
+        3.232084703617333,
+        1.7889033842983104,
+        1.7889033842983104
       ],
       "geometry": {
         "type": "plane",
@@ -245,10 +209,10 @@
           "asset": "assets/Animacion_3D.mp4"
         }
       },
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "3d4f5ef0-b759-49bd-b067-f5c5fb8ad79f",
       "components": {},
       "name": "Video",
-      "order": 8.48247990269314,
+      "order": 1.3267805947849503,
       "videoControls": {
         "paused": false
       }
@@ -463,9 +427,9 @@
     "bff433f5-75df-42fc-a26f-547305b26081": {
       "id": "bff433f5-75df-42fc-a26f-547305b26081",
       "position": [
-        -2.5669600137806636,
-        2.2105058200700083,
-        -2.741238424484216
+        -2.850062724388441,
+        2.7574184639929653,
+        -2.7412384244842163
       ],
       "rotation": [
         0,
@@ -480,10 +444,10 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "3d4f5ef0-b759-49bd-b067-f5c5fb8ad79f",
       "components": {},
       "name": "Redes",
-      "order": 14.951248617563673
+      "order": 1.4500041752684754
     },
     "a69ef8b9-1b26-455f-a709-e96a0dfc98b8": {
       "id": "a69ef8b9-1b26-455f-a709-e96a0dfc98b8",
@@ -578,6 +542,196 @@
         "offsetY": 0.10000000000000003,
         "offsetZ": -0.10000000000000003
       }
+    },
+    "3d4f5ef0-b759-49bd-b067-f5c5fb8ad79f": {
+      "id": "3d4f5ef0-b759-49bd-b067-f5c5fb8ad79f",
+      "position": [
+        0,
+        2.9366775411650163e-18,
+        0.013225619880098072
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c93ecf3a-9187-440e-8b50-ad75f7b19aa6",
+      "components": {},
+      "name": "Escala General",
+      "order": 3.1059680100244003
+    },
+    "f7119a89-391c-43e3-bc65-64961ee6cb80": {
+      "id": "f7119a89-391c-43e3-bc65-64961ee6cb80",
+      "position": [
+        -2.2900600633591237,
+        -0.06612809940049036,
+        1.5567687120204723
+      ],
+      "rotation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3d4f5ef0-b759-49bd-b067-f5c5fb8ad79f",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Setup.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Setup.glb",
+      "order": 3.7515212430659455
+    },
+    "3dedf2cc-3908-4548-8993-53d8116b3f00": {
+      "id": "3dedf2cc-3908-4548-8993-53d8116b3f00",
+      "position": [
+        -1.8284106852801645,
+        -0.06612809940049036,
+        1.8789697465655386
+      ],
+      "rotation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3d4f5ef0-b759-49bd-b067-f5c5fb8ad79f",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Sofa.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Sofa.glb",
+      "order": 3.8065911498963656
+    },
+    "690548b1-5208-47f8-837f-cb69c27bbfbc": {
+      "id": "690548b1-5208-47f8-837f-cb69c27bbfbc",
+      "position": [
+        -2.488062965506515,
+        -0.06612809940049036,
+        0.791496599314534
+      ],
+      "rotation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3d4f5ef0-b759-49bd-b067-f5c5fb8ad79f",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PC.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "PC.glb",
+      "order": 3.8616610567267857
+    },
+    "ea6f2514-f1ec-45c0-b407-9076f8dd71da": {
+      "id": "ea6f2514-f1ec-45c0-b407-9076f8dd71da",
+      "position": [
+        -2.4676438957165936,
+        -0.06612809940049036,
+        0.4674855050170501
+      ],
+      "rotation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3d4f5ef0-b759-49bd-b067-f5c5fb8ad79f",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Silla.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Silla.glb",
+      "order": 3.916730963557206
+    },
+    "c23f422e-1c9b-4acd-bbd0-c69716c0d917": {
+      "id": "c23f422e-1c9b-4acd-bbd0-c69716c0d917",
+      "position": [
+        -1.8399523743180013,
+        -0.4054923773664769,
+        1.532312698477858
+      ],
+      "rotation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3d4f5ef0-b759-49bd-b067-f5c5fb8ad79f",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/TV.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "TV.glb",
+      "order": 3.971800870387626
     }
   },
   "spaces": {
