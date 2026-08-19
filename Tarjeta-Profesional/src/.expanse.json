@@ -98,34 +98,57 @@
       "id": "250beb79-4d82-4104-bf9e-c5f35432dde1",
       "position": [
         0,
-        0.19224801456505247,
-        -4.268763444171874e-17
+        0,
+        -0.19224801456505247
       ],
       "rotation": [
-        0.7071067811865475,
         0,
         0,
-        0.7071067811865476
+        0,
+        1
       ],
       "scale": [
-        0.1,
-        0.1,
-        0.1
+        0.15,
+        0.15,
+        0.15
       ],
       "geometry": null,
       "material": null,
-      "parentId": "c93ecf3a-9187-440e-8b50-ad75f7b19aa6",
-      "components": {},
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "2b44dad3-cf9c-42c5-b1fb-1a87fa59709a": {
+          "id": "2b44dad3-cf9c-42c5-b1fb-1a87fa59709a",
+          "name": "avatarAnimationToggle",
+          "parameters": {
+            "avatar": {
+              "type": "entity",
+              "id": "250beb79-4d82-4104-bf9e-c5f35432dde1"
+            },
+            "animationDefault": "Idle",
+            "animationAlt": "Salsa"
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
           "asset": "assets/Character_Preset.glb"
         },
-        "animationClip": "",
+        "animationClip": "Idle",
         "loop": true
       },
       "name": "Character_Preset.glb",
-      "order": 0.7777905324686969
+      "order": 2.6964513362355254,
+      "collider": {
+        "geometry": {
+          "type": "capsule",
+          "radius": 3.5,
+          "height": 6
+        },
+        "offsetY": 5.699999999999996,
+        "offsetX": -0.4,
+        "offsetZ": 0.7
+      }
     },
     "c93ecf3a-9187-440e-8b50-ad75f7b19aa6": {
       "id": "c93ecf3a-9187-440e-8b50-ad75f7b19aa6",
@@ -219,13 +242,16 @@
         "color": "#ffffff",
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/Animacin_3D.mp4"
+          "asset": "assets/Animacion_3D.mp4"
         }
       },
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
       "name": "Video",
-      "order": 8.48247990269314
+      "order": 8.48247990269314,
+      "videoControls": {
+        "paused": false
+      }
     },
     "e7b18b43-2c52-414f-b35b-78c7bc5d56c7": {
       "id": "e7b18b43-2c52-414f-b35b-78c7bc5d56c7",
@@ -249,15 +275,15 @@
       "material": null,
       "parentId": "41b0397b-7b1b-4597-9978-53a8a78f5f2c",
       "components": {
-        "4371700e-28cc-45ff-be97-0b01388ee8f0": {
-          "id": "4371700e-28cc-45ff-be97-0b01388ee8f0",
-          "name": "videoController",
+        "90dcbbc1-ac44-4c4b-b9fd-633cc0707457": {
+          "id": "90dcbbc1-ac44-4c4b-b9fd-633cc0707457",
+          "name": "videoPlayToggle",
           "parameters": {
             "video": {
               "type": "entity",
               "id": "41b0397b-7b1b-4597-9978-53a8a78f5f2c"
             },
-            "playIcon": {
+            "iconoUi": {
               "type": "entity",
               "id": "e7b18b43-2c52-414f-b35b-78c7bc5d56c7"
             }
@@ -338,7 +364,19 @@
       "geometry": null,
       "material": null,
       "parentId": "bff433f5-75df-42fc-a26f-547305b26081",
-      "components": {},
+      "components": {
+        "9ab2d7c2-61d9-490e-8c53-bc942e7d2745": {
+          "id": "9ab2d7c2-61d9-490e-8c53-bc942e7d2745",
+          "name": "linkButton",
+          "parameters": {
+            "button": {
+              "type": "entity",
+              "id": "7aed1b8f-de44-4daf-9f36-91be4f5d2155"
+            },
+            "url": "https://wa.link/8s47v5"
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -351,7 +389,9 @@
       "order": 10.380341108136365,
       "collider": {
         "geometry": {
-          "type": "auto"
+          "type": "cylinder",
+          "radius": 0.5,
+          "height": 1
         },
         "offsetQuaternionX": 0.7071067811865475,
         "offsetQuaternionY": 0,
@@ -382,7 +422,19 @@
       "geometry": null,
       "material": null,
       "parentId": "bff433f5-75df-42fc-a26f-547305b26081",
-      "components": {},
+      "components": {
+        "3424da99-2c2c-42da-929f-b55bca4fab9f": {
+          "id": "3424da99-2c2c-42da-929f-b55bca4fab9f",
+          "name": "linkButton",
+          "parameters": {
+            "button": {
+              "type": "entity",
+              "id": "8b54f317-7967-4e66-95ad-0e4b6b9f41ff"
+            },
+            "url": "https://www.instagram.com/jorge___vm/"
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -395,7 +447,10 @@
       "order": 12.216088620834014,
       "collider": {
         "geometry": {
-          "type": "auto"
+          "type": "box",
+          "depth": 1,
+          "height": 1,
+          "width": 1
         },
         "offsetQuaternionX": -0.7071067811865475,
         "offsetQuaternionY": 0,
@@ -483,7 +538,19 @@
       "geometry": null,
       "material": null,
       "parentId": "bff433f5-75df-42fc-a26f-547305b26081",
-      "components": {},
+      "components": {
+        "af938e7e-f9fc-4853-af4f-686e4e88486f": {
+          "id": "af938e7e-f9fc-4853-af4f-686e4e88486f",
+          "name": "linkButton",
+          "parameters": {
+            "button": {
+              "type": "entity",
+              "id": "5ff59be9-21cf-488e-8cf9-8ab5fbeb04e7"
+            },
+            "url": "https://github.com/Jove723"
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -496,17 +563,19 @@
       "order": 11.585844206443209,
       "collider": {
         "geometry": {
-          "type": "auto"
+          "type": "cylinder",
+          "radius": 0.5,
+          "height": 1
         },
         "mass": 0,
         "type": "static",
         "eventOnly": true,
-        "offsetX": -1.55,
+        "offsetX": -1.5,
         "offsetQuaternionX": -0.7071067811865475,
         "offsetQuaternionY": 0,
         "offsetQuaternionZ": 0,
         "offsetQuaternionW": 0.7071067811865476,
-        "offsetY": 0.2,
+        "offsetY": 0.10000000000000003,
         "offsetZ": -0.10000000000000003
       }
     }
